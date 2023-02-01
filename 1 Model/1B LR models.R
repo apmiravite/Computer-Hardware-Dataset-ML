@@ -30,7 +30,7 @@ hardware=cbind(hardware, CACHE, CHAve, MAve, SPEED, CHCAP, SQRERF, CHCAP_norm, M
 #Show the dimensions of hardware dataframe
 dim(hardware)
 
-#Additional codes start here
+#From part 1A
 set.seed(1) # generates random number
 # spliting the data as training and testing in ratio of 0.8/0.2
 split= sample(209,167) 
@@ -42,3 +42,12 @@ dim(training_set) # Checking the dimension of training set
 #Test set
 test_set=hardware[-split,] # store the remaining data
 dim(test_set) # checking the dimension of the test set
+
+#Additional codes start here
+
+#LR
+linear_train=lm(formula=SQRERF~MAve+CACHE+CHCAP, data=training_set)
+summary(linear_train)
+
+linear_norm_train=lm(formula=SQRERF_norm~MAve_norm +CACHE_norm+CHCAP_norm, data=training_set)
+summary(linear_norm_train)
