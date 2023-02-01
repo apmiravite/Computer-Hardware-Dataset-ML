@@ -9,21 +9,22 @@ hardware <- read.csv('https://archive.ics.uci.edu/ml/machine-learning-databases/
 colnames(hardware)<- c('Vendor', 'Model Name','MYCT','MMin','MMax','CACH','CHMin','CHMax','PRP','ERP')
 
 #Transformations: Apply the necesary transfromations as in Ein-Dor(1987).
-CHAve= (hardware$CHMin+hardware$CHMax)/2
-MAve= (hardware$MMin+hardware$MMax)/2
+CHAve= as.integer((hardware$CHMin+hardware$CHMax)/2)+1
+MAve= ((hardware$MMin+hardware$MMax)/2)*(10**-3)
 
 SPEED= (1/hardware$MYCT)
 CHCAP= CHAve*SPEED*10
 SQRERF= hardware$ERP**0.5
+CACHE= hardware$CACH*(10**-1)
 
 #Normalize the data. We will use this later
 MAve_norm = scale(MAve)
 CHCAP_norm = scale(CHCAP)
-CACH_norm = scale(hardware$CACH)
+CACHE_norm = scale(CACHE)
 SQRERF_norm = scale(SQRERF)
 
 #append the new columns to the table
-hardware=cbind(hardware, CHAve, MAve, SPEED, CHCAP, SQRERF, CHCAP_norm, MAve_norm, CACH_norm, SQRERF_norm)
+hardware=cbind(hardware, CACHE, CHAve, MAve, SPEED, CHCAP, SQRERF, CHCAP_norm, MAve_norm, CACH_norm, SQRERF_norm)
 
 #Show the dimensions of hardware dataframe
 dim(hardware)
