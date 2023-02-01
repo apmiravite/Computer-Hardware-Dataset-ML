@@ -20,7 +20,7 @@ We also put normalized variables for $MAve, CHCAP, CACH, SQRERF$, which we will 
 
 We setup the training and test sets for our hardware data in the ratio 80:20. Since we have 209 oberservations, we have 167 training data points and 42 test data points.
 
-Our regression model is as follows: $SQRERF = \epsilon + \beta_1\cdot MAve + \beta_2\cdot CACH + \beta_3\cdot CHCAP$ 
+Our regression model is as follows: $SQRERF = \epsilon + \beta_1\cdot MAve + \beta_2\cdot CACHE + \beta_3\cdot CHCAP$ 
 
 This is the result of our linear regression model
 
