@@ -37,3 +37,5 @@ This is the result of our linear regression model
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+ $SQRERF = 3.78 + 0.49 MAve + 0.03 CACHE + 0.19 CHCAP$ 
