@@ -47,7 +47,7 @@ dim(test_set) # checking the dimension of the test set
 
 #LR
 linear_train=lm(formula=SQRERF~MAve+CACHE+CHCAP, data=training_set)
-summary(linear_train)
+summary(linear_train) #display results
 
 linear_norm_train=lm(formula=SQRERF_norm~MAve_norm +CACHE_norm+CHCAP_norm, data=training_set)
-summary(linear_norm_train)
+summary(linear_norm_train) #display results
