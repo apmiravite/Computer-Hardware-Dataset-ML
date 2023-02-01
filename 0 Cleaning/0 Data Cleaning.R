@@ -1,4 +1,5 @@
 library(tidyverse)
+libary(caTools)
 
 #Loads the data from the website
 hardware <- read.csv('https://archive.ics.uci.edu/ml/machine-learning-databases/cpu-performance/machine.data',
