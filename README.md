@@ -39,3 +39,7 @@ This is the result of our linear regression model
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
  $SQRERF = 3.78 + 0.49 MAve + 0.30 CACHE + 0.19 CHCAP$ 
+ 
+ If we do a similar run using the normalized values, we get this result:
+ 
+ $SQRERF = 6.80 + 0.72 MAve + 0.24 CACHE + 0.16 CHCAP$ 
