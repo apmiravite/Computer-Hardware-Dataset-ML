@@ -43,3 +43,5 @@ This is the result of our linear regression model
  If we do a similar run using the normalized values, we get this result:
  
  $SQRERF = 6.80 + 0.72 MAve + 0.24 CACHE + 0.16 CHCAP$ 
+ 
+ Both runs show that all three independent variables contribute significantly to explaining variances in the dependent variable.
