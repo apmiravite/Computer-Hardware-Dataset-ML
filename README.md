@@ -20,7 +20,8 @@ We also put normalized variables for $MAve, CHCAP, CACH, SQRERF$, which we will 
 
 We setup the training and test sets for our hardware data in the ratio 80:20. Since we have 209 oberservations, we have 167 training data points and 42 test data points.
 
-Below is the correlation table of variables we will be using:
+Below is the correlation table of the variables we will be using:
+
 <img
   src="https://github.com/apmiravite/Computer-Hardware-Dataset-ML/blob/main/images/correlation.png"
   alt="Alt text"
