@@ -29,7 +29,7 @@ hardware=cbind(hardware, CHAve, MAve, SPEED, CHCAP, SQRERF, CHCAP_norm, MAve_nor
 #Show the dimensions of hardware dataframe
 dim(hardware)
 
-#Addition code start here
+#Additional codes start here
 set.seed(1) # generates random number
 # spliting the data as training and testing in ratio of 0.8/0.2
 split= sample(209,167) 
