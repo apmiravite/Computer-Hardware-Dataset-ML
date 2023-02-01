@@ -25,7 +25,7 @@ CACHE_norm = scale(CACHE)
 SQRERF_norm = scale(SQRERF)
 
 #append the new columns to the table
-hardware=cbind(hardware, CACHE, CHAve, MAve, SPEED, CHCAP, SQRERF, CHCAP_norm, MAve_norm, CACH_norm, SQRERF_norm)
+hardware=cbind(hardware, CACHE, CHAve, MAve, SPEED, CHCAP, SQRERF, CHCAP_norm, MAve_norm, CACHE_norm, SQRERF_norm)
 
 #Show the dimensions of hardware dataframe
 dim(hardware)
