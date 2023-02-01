@@ -1,4 +1,4 @@
-# Computer-Hardware-Dataset-ML
+# Computer Hardware Dataset
 Exercise on Computer Hardware Dataset
 
 Data source: [https://archive.ics.uci.edu/ml/datasets/Computer+Hardware](https://archive.ics.uci.edu/ml/datasets/Computer+Hardware)
