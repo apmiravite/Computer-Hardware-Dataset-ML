@@ -53,3 +53,9 @@ linear_norm_train=lm(formula=SQRERF_norm~MAve_norm +CACHE_norm+CHCAP_norm, data=
 summary(linear_norm_train) #display results
 
 # Additional codes start here
+
+# predicting the target variable 
+prediction_norm <- predict(linear_norm_train, test_set)
+
+#model performance metrics
+data.frame(R2 = R2(prediction_norm, test_set$SQRERF),RMSE = RMSE(prediction_norm, test_set$SQRERF), MAE = MAE(prediction_norm, test_set$SQRERF))
