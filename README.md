@@ -12,7 +12,7 @@ $SPEED= (1/MYCT)$ <br>
 $CHCAP=CHAve\cdot SPEED\cdot10$<br>
 $SQRERF= \sqrt{ERP}$
 
-We also put normalized variables for $MAve, CHCAP, CACH, SQRERF$, which we will be using later.
+We also put standarized variables for $MAve, CHCAP, CACH, SQRERF$, which we will be using later.
 
 *1 Model*
 
