@@ -55,7 +55,7 @@ This is the result of our linear regression model
 prediction_norm <- predict(linear_norm_train, test_set)
 ```
 
-
+The next line shows statistical metrics that are used for evaluating the performance of a Linear regression model.<br> 
 ```R
 data.frame(R2 = R2(prediction_norm, test_set$SQRERF),RMSE = RMSE(prediction_norm, test_set$SQRERF), MAE = MAE(prediction_norm, test_set$SQRERF))
 ```
