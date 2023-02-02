@@ -48,7 +48,7 @@ Doing a similar run using the standardized values, we get this result:
  
  $SQRERF = 6.80 + 0.72 MAve + 0.24 CACHE + 0.16 CHCAP$ 
  
- Both runs show that all three independent variables contribute significantly to explaining variances in the dependent variable.
+ All three independent variables contribute significantly to explaining variances in the dependent variable, with memory size being the most dominant contributor.
  
  *1C Predicting the Target Variable and Evaluating the Accuracy of the Model*<br>
   Using our model from our training dataset (1B), we will predict target values using the data point of the testing dataset
