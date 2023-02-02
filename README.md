@@ -16,7 +16,7 @@ We also put standarized variables for $MAve, CHCAP, CACH, SQRERF$, which we will
 
 *1 Model*
 
-This exercise follows the procedure in Ein-Dor (1987).
+This exercise follows the procedure in [Ein-Dor](https://dl.acm.org/doi/10.1145/32232.32234) (1987).
 
 *1A Training and Testing dataset*<br>
 We setup the training and test sets for our hardware data in the ratio 80:20. Since we have 209 oberservations, we have 167 training data points and 42 test data points.
