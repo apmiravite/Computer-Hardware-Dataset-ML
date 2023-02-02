@@ -18,6 +18,7 @@ We also put normalized variables for $MAve, CHCAP, CACH, SQRERF$, which we will 
 
 This exercise follows the procedure in Ein-Dor (1987).
 
+*1A Training and Testing dataset*<br>
 We setup the training and test sets for our hardware data in the ratio 80:20. Since we have 209 oberservations, we have 167 training data points and 42 test data points.
 
 Below is the correlation table of the variables we will be using:
@@ -27,7 +28,8 @@ Below is the correlation table of the variables we will be using:
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
-
+  
+*1B Linear Regression Model*<br>
 Our regression model is as follows: $SQRERF = \epsilon + \beta_1\cdot MAve + \beta_2\cdot CACHE + \beta_3\cdot CHCAP$ 
 
 This is the result of our linear regression model
@@ -45,3 +47,6 @@ This is the result of our linear regression model
  $SQRERF = 6.80 + 0.72 MAve + 0.24 CACHE + 0.16 CHCAP$ 
  
  Both runs show that all three independent variables contribute significantly to explaining variances in the dependent variable.
+ 
+ *1C Predicting the Target Variable*<br>
+ 
