@@ -61,3 +61,8 @@ The next line shows statistical metrics that are used for evaluating the perform
 ```R
 data.frame(R2 = R2(prediction_norm, test_set$SQRERF),RMSE = RMSE(prediction_norm, test_set$SQRERF), MAE = MAE(prediction_norm, test_set$SQRERF))
 ```
+
+```R
+         R2    RMSE      MAE
+1 0.9999812 9.44776 8.444859
+```
