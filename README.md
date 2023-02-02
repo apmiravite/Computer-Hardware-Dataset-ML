@@ -42,7 +42,9 @@ This is the result of our linear regression model
 
  $SQRERF = 3.78 + 0.49 MAve + 0.30 CACHE + 0.19 CHCAP$ 
  
- If we do a similar run using the normalized values, we get this result:
+We mentioned earlier that we got the standardized values of the variables we used. We are doing this because cache memory, channel capacity, and average
+memory were each measured on a different scale, they must first be standardized before performing sensitivity analyses. 
+Doing a similar run using the standardized values, we get this result:
  
  $SQRERF = 6.80 + 0.72 MAve + 0.24 CACHE + 0.16 CHCAP$ 
  
