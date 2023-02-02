@@ -54,3 +54,8 @@ This is the result of our linear regression model
 ```R
 prediction_norm <- predict(linear_norm_train, test_set)
 ```
+
+
+```R
+data.frame(R2 = R2(prediction_norm, test_set$SQRERF),RMSE = RMSE(prediction_norm, test_set$SQRERF), MAE = MAE(prediction_norm, test_set$SQRERF))
+```
