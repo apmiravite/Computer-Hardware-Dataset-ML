@@ -49,4 +49,8 @@ This is the result of our linear regression model
  Both runs show that all three independent variables contribute significantly to explaining variances in the dependent variable.
  
  *1C Predicting the Target Variable*<br>
- 
+  Using our model from our training dataset (1B), we will predict target values using the data point of the testing dataset
+  
+```R
+prediction_norm <- predict(linear_norm_train, test_set)
+```
